@@ -166,7 +166,7 @@ def main():
     # Sidebar with improved styling
     with st.sidebar:
         #st.markdown("### 🔑 API Configuration")
-        groq_api_key=os.getenv('GROQ_API_KEY')
+        groq_api_key='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'
         
         st.markdown("### ⚙️ Summarization Settings")
         summary_type = st.radio(
